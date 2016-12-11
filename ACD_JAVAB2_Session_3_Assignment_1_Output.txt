@@ -1,0 +1,30 @@
+// test class as per assignment document 
+
+public class ACD_JAVAB2_Session_3_Assignment_1{       
+	static{       
+		 print(10);       
+		 }    
+		 
+      
+ static void print (int x) {   
+ System.out.println (x); 
+ System.exit(0);   
+  } 
+} 
+
+
+// Output after running the above code
+
+Error: Main method not found in class ACD_JAVAB2_Session_3_Assignment_1, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+
+Correct Answer : Compile Error
+
+Output must be one of the following: 
+a.Compiler error. 
+b. Will throw a NoSuchMethod error at runtime. 
+c. It will compile and run printing out "10“ 
+d. It will run with no output.
+ e. It will run and print "10" and then crash with an error 
